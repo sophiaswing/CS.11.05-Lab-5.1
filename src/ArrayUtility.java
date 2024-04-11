@@ -155,6 +155,7 @@ public class ArrayUtility {
 
     public static void shiftLeftNTimes(int[] array, int n) {
         for (int i=1;i<=n;i++){
+            //use the shift left method
             shiftLeft(array);
         }
     }
